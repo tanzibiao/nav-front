@@ -12,4 +12,5 @@ module.exports = override(
         javascriptEnabled: true,
         modifyVars: {'@primary-color': '#ebf3f0'},
     }),
+    override({outputDir: 'dist',}),
 );
